@@ -215,11 +215,31 @@ export default function App() {
           </div>
           <div className="specs__item">
             <span className="specs__num">05.</span>
-            <span>Grid lines: 4px solid ink. Telegram Mini App format.</span>
+            <span>Built live on stream with Claude Code.</span>
           </div>
           <div className="specs__item">
             <span className="specs__num">06.</span>
             <span>Digital manufacture. No warranties implied or expressed.</span>
+          </div>
+          <div className="specs__divider" />
+          <div className="specs__title">References:</div>
+          <div className="specs__item">
+            <span className="specs__num">A.</span>
+            <a className="specs__link" href="https://t.me/danokhlopkov" target="_blank" rel="noopener">
+              TG: @danokhlopkov
+            </a>
+          </div>
+          <div className="specs__item">
+            <span className="specs__num">B.</span>
+            <a className="specs__link" href="https://github.com/ohld/tma-llms-txt" target="_blank" rel="noopener">
+              LLM guide for TMA dev
+            </a>
+          </div>
+          <div className="specs__item">
+            <span className="specs__num">C.</span>
+            <a className="specs__link" href="https://github.com/ohld/tic-tac-tma" target="_blank" rel="noopener">
+              Source code
+            </a>
           </div>
         </div>
       </div>

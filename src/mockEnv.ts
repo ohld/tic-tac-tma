@@ -1,6 +1,9 @@
-import { mockTelegramEnv } from '@tma.js/sdk-react';
+import { mockTelegramEnv, retrieveLaunchParams } from '@tma.js/sdk-react';
 
-if (import.meta.env.DEV) {
+// Mock Telegram environment when opened outside Telegram (browser preview, Vercel deploy, etc.)
+try {
+  retrieveLaunchParams();
+} catch {
   mockTelegramEnv({
     launchParams: {
       tgWebAppVersion: '8.0',

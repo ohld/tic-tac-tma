@@ -29,12 +29,13 @@ npm run build
 
 ## Stream
 
-This project was built live on stream. Watch the recording and follow along.
+This project was built live on stream: [youtu.be/s92JCCQB9fk](https://youtu.be/s92JCCQB9fk)
 
 ### Links from the stream
 
 | Resource | Link |
 |----------|------|
+| Build stream | [youtu.be/s92JCCQB9fk](https://youtu.be/s92JCCQB9fk) |
 | LLM guide for TMA development | [github.com/ohld/tma-llms-txt](https://github.com/ohld/tma-llms-txt) |
 | Source code | [github.com/ohld/tic-tac-tma](https://github.com/ohld/tic-tac-tma) |
 | Telegram bot | [@gtrendsbot](https://t.me/gtrendsbot) |

@@ -46,14 +46,20 @@ body {
 .app__container {
   flex: 1;
   padding: 20px 60px 20px 20px;
-  /* 44px extra for Telegram Mini App native header (close button) */
-  padding-top: calc(44px + 16px + var(--safe-top));
+  padding-top: calc(20px + var(--safe-top));
   padding-bottom: calc(20px + var(--safe-bottom));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   height: 100vh;
   height: 100dvh;
+}
+
+/* On mobile (touch devices) add extra top padding for TMA close button */
+@media (hover: none) and (pointer: coarse) {
+  .app__container {
+    padding-top: calc(44px + 16px + var(--safe-top));
+  }
 }
 
 /* ===== Ruler strip ===== */
@@ -250,16 +256,16 @@ body {
 /* ===== Reset button ===== */
 
 .app__reset {
-  margin-top: 20px;
+  margin-top: 12px;
   width: 100%;
   background: transparent;
   border: 2px solid var(--c-ink);
   color: var(--c-ink);
-  padding: 12px;
+  padding: 10px 12px;
   font-family: var(--font-stack);
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   cursor: pointer;
   border-radius: var(--border-r);
@@ -268,6 +274,10 @@ body {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
 
 .app__reset:active {

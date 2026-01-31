@@ -225,14 +225,14 @@ export default function App() {
           <div className="specs__title">References:</div>
           <div className="specs__item">
             <span className="specs__num">A.</span>
-            <a className="specs__link" href="https://t.me/danokhlopkov" target="_blank" rel="noopener">
-              TG: @danokhlopkov
+            <a className="specs__link" href="https://youtu.be/s92JCCQB9fk" target="_blank" rel="noopener">
+              Build stream (YouTube)
             </a>
           </div>
           <div className="specs__item">
             <span className="specs__num">B.</span>
-            <a className="specs__link" href="https://github.com/ohld/tma-llms-txt" target="_blank" rel="noopener">
-              LLM guide for TMA dev
+            <a className="specs__link" href="https://t.me/danokhlopkov" target="_blank" rel="noopener">
+              TG: @danokhlopkov
             </a>
           </div>
           <div className="specs__item">
